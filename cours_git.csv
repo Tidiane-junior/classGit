@@ -29,7 +29,10 @@ le propriétaire du fichier (ou tout le monde) dispose des droits de lecture et 
  5. **git push** : Envoie les commits locaux vers git
  6. **git pull** : Récupère et fusionne les modifications depuis git
  7. **git branch** : pour les branches.
- 8. **git checkout / git switch** : Permet de basculer entre les branches.
+ 8. **git checkout** : Permet de basculer entre les branches.
+	ou **git checkout -b** *'dev'* : pour créer une branche *dev*
+	**git push --set-upstream origin dev** : pour créer une copie de la branche en ligne.
+ 9. **git switch** : 
  
  #### Récupèrer des fichoers depuis mon git
   1. **git fetch** : pour avoir le nombre de fichiers qu'on a en local

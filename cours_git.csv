@@ -1,0 +1,21 @@
+#Git et Github
+Git est l'outil le plus utiliser pour : 
+ - permettre à plusieurs developper de travailler sur sa version 
+ - versionner(archiver ou revenor en arrière) notre code, 
+ - De fusionner ces codes (branche) de façon à avoir une version complète dans une branche principale(master)
+ - avoir une copie en ligne de notre code.
+
+Pour avoir Git :
+1. Télécharger git dans le site officiel git-scm.com/download puis l'installer
+2. S'inscrire dans github.com pour choisir github comme plateforme de code (y a aussi gitlab, batbucket)
+3. Se connecter et accéser à mon repo (les différents projets qu'on crée)
+4. On clic sur "new" pour créer un nouveau projet dans mon repo 
+5. **gititignore** pour dire à git d'ignorer certains fichiers (des vidoes lourdes par exemple)
+6. Choisir la license comme MIT license par exemple puis créer
+
+Pour ajouter un dossier dans **.gititignore**, on ouvre ce dernier avec vsc puis taper **/nom_dossier**
+
+## Modifiez les Permissions : La solution la plus courante est de s'assurer que 
+le propriétaire du fichier (ou tout le monde) dispose des droits de lecture et d'écriture.
+ - Méthode 1 : Donner les droits de lecture/écriture au propriétaire (recommandé) : **chmod a+r "mon_fichier**
+ - Méthode 2 : Donner les droits de lecture à tout le monde (moins sécurisé, mais efficace) : **chmod a+r "mon_fichier"** 

@@ -41,5 +41,7 @@ le propriétaire du fichier (ou tout le monde) dispose des droits de lecture et 
   2. **git pull** : pour mettre à jour ces fichiers en local
   
  Pour de bonne pratique, il est déconseillé de travailler sur la branche principale (main).
+ 
  	- Créer d'autre à l'aide de **git checkout -b 'new_branch'** et y faire le taf
+	
  	- Revenir à la branche **main** (*git branch 'main'*) et fusionner les à l'aide de : **git merge** *new_branch*

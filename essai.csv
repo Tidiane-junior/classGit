@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Créer mes variables
+auteur=$(whoami)
+docs=$(pwd)
+fichiers=$(ls)
+date_actuelle=$(date +"%d-%m-%Y à %H:%M:%S")
+
+
+
+echo -e "Bonjour ! je suis dans local $auteur. Je travaille sur le dossier $docs qui est composé des fichiers : $fichiers. \nOn est le $date_actuelle."

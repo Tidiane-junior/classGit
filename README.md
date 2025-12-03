@@ -39,7 +39,12 @@ le propriétaire du fichier (ou tout le monde) dispose des droits de lecture et 
  #### Récupèrer des fichoers depuis mon git
   1. **git fetch** : pour avoir le nombre de fichiers qu'on a en local
   2. **git pull** : pour mettre à jour ces fichiers en local
+
+  #### Récuperer une version antérieure
+  1. **git log** : Donne l'ensemble des commits avec son message et un **id_commit**
+  2. **git checkout** *id_commit* : Permet de changer de version 
   
  Pour de bonne pratique, il est déconseillé de travailler sur la branche principale (main).
  - Créer d'autre à l'aide de **git checkout -b 'new_branch'** et y faire le taf
- - Revenir à la branche **main** (*git branch 'main'*) et fusionner les à l'aide de : **git merge** *new_branch*
+ - Revenir à la branche **main** (*git branch 'main'*) et fusionner les à l'aide de
+  **git merge** *new_branch*

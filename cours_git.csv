@@ -31,3 +31,20 @@ le propriétaire du fichier (ou tout le monde) dispose des droits de lecture et 
  6. **git pull** : Récupère et fusionne les modifications depuis git
  7. **git branch** : Permet de créer, lister ou supprimer des branches.
  8. **git checkout / git switch** : Permet de basculer entre les branches.
+ 7. **git branch** : pour les branches.
+ 8. **git checkout** : Permet de basculer entre les branches.
+	ou **git checkout -b** *'dev'* : pour créer une branche *dev*
+	**git push --set-upstream origin dev** : pour créer une copie de la branche en ligne.
+ 9. **git switch** : 
+ 
+ #### Récupèrer des fichiers depuis mon git
+  1. **git fetch** : pour avoir le nombre de fichiers qu'on a en local
+  2. **git pull** : pour mettre à jour ces fichiers en local
+ 
+ #### Récuperer une version antérieure
+  1. **git log** : Donne l'ensemble des commits avec son message et un **id_commit**
+  2. **git checkout** *id_commit* : Permet de changer de version 
+  
+ 
+ 
+ Pour de bonne pratique, il conseiller de ne pas travailler sur la branche principale (main).
